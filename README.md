@@ -7,6 +7,7 @@
 - 🏦 Domain experience: Payments, Automotive, Credit Risk, Investment Banking, Commercial Banking
 - 📈 Currently expanding into data quality validation & ML pipeline testing
 - 📫 Reach me: ashishsonkamble@rocketmail.com
+- [![LinkedIn](https://img.shields.io/badge/-Ashish_Sonkamble-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashish-sonkamble)
 
 ---
 
