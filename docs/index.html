@@ -12,16 +12,11 @@
 <body id="top">
 
 <!--
-  TODO before publishing — placeholders to fill in:
-  1. Hero: your city/country + UTC offset (currently "[Your City, Country]")
-  2. Hero: swap the initials avatar for a real photo if you want one (see .avatar in style.css)
-  3. Experience: only your current role (Payabl) is filled in from what I know — add earlier
-     roles by duplicating a .timeline-item block
-  4. Skills: "since [20XX]" start years are placeholders — put real years in
-  5. Impact band + project stat pills: every "[XX]%" is a placeholder — replace with real
-     numbers once you have before/after data, or delete the ones you don't have
-  6. Projects: GitHub links point at github.com/automatish/... — update if your repos live
-     under a different org/username
+  Content sourced from Ashish's CV. Two things deliberately left out of the public page:
+  - Home street address (city-level location only, for privacy)
+  - Phone number (email + LinkedIn are the public contact channels)
+  No photo on file yet — swap the "AS" initials avatar in .avatar (style.css) for a real one
+  whenever you have one.
 -->
 
 <header class="nav">
@@ -40,14 +35,14 @@
 
   <!-- Hero -->
   <section class="hero">
-    <p class="meta">[Your City, Country]. UTC±X</p>
+    <p class="meta">Frankfurt am Main, Germany. UTC+1</p>
     <p class="meta">Remote, international product teams</p>
     <p class="meta">English (C1) · German (A2)</p>
 
     <div class="avatar" aria-hidden="true"><span>AS</span></div>
 
     <h1 class="script">Ashish Sonkamble</h1>
-    <p class="role">AI-Driven Automation QA Engineer · Payments &amp; Banking Systems</p>
+    <p class="role">AI-Driven Automation QA Engineer · Payments, Banking &amp; Automotive</p>
 
     <p class="intro">
       I build test automation frameworks for products where a missed defect is expensive:
@@ -67,13 +62,14 @@
       I came to QA from a background in manual and functional testing across payments and
       banking systems, and stayed because I liked owning the question of what happens when
       this fails. Over 11+ years that turned into building automation frameworks from
-      scratch rather than just running tests someone else designed.
+      scratch rather than just running tests someone else designed — most recently for
+      clients including UBS and HSBC in banking, and Volkswagen and Cariad in automotive.
     </p>
     <p>
       I've worked across Payments, Automotive, Credit Risk, Investment Banking and
-      Commercial Banking domains, each with its own definition of an expensive bug. That's
-      shaped how I think about coverage: not "test everything" but test what actually costs
-      the business when it breaks.
+      Commercial Banking domains, each with its own definition of an expensive bug. Beyond
+      hands-on automation, I've led QA teams and owned test planning, test strategy and
+      testing process setup on several engagements.
     </p>
 
     <hr>
@@ -99,6 +95,10 @@
         <div class="stat-num">ISTQB</div>
         <div class="stat-label">certified</div>
       </div>
+      <div class="stat-row">
+        <div class="stat-num">UBS · HSBC</div>
+        <div class="stat-label">banking clients — plus Volkswagen &amp; Cariad in automotive</div>
+      </div>
     </div>
   </section>
 
@@ -110,9 +110,9 @@
     <div class="principle-card">
       <span class="principle-num">01</span>
       <h3>Build the framework so it survives the product, not just the release</h3>
-      <p>Frameworks I've built are meant to be maintained by whoever inherits them, not just
-        by me. That means readable test data, clear structure, and documentation that
-        doesn't go stale after the first sprint.</p>
+      <p>Frameworks I've built — from a Cypress suite built from scratch for an automotive
+        OTA platform to a legacy trade-pricing regression suite — are meant to be maintained
+        by whoever inherits them, not just by me.</p>
     </div>
 
     <div class="principle-card">
@@ -132,9 +132,10 @@
 
     <div class="principle-card">
       <span class="principle-num">04</span>
-      <h3>Data quality is quality — not a separate discipline</h3>
-      <p>Extending automation thinking into data quality validation and ML pipeline testing
-        rather than treating it as a different job from application QA.</p>
+      <h3>Own the strategy, not just the tickets</h3>
+      <p>Test planning, test strategy and process setup have been part of my remit at
+        several companies, alongside interviewing and onboarding other QAs — deciding what
+        to test is as much the job as testing it.</p>
     </div>
   </section>
 
@@ -145,18 +146,45 @@
 
     <div class="timeline">
       <div class="timeline-item">
-        <p class="timeline-date">Current</p>
-        <h3>AI-Driven Automation QA Engineer, Payabl Solutions</h3>
-        <p>Own customer-facing dashboard testing and AI-driven QA, building on 11+ years of
-          test automation experience across payments and banking systems.</p>
+        <p class="timeline-date">Mar 2024 to present</p>
+        <h3>QA Engineer, Payabl Solutions</h3>
+        <p>Testing the customer-facing dashboard at a payment solutions provider for
+          merchants, with AI-driven manual and automation testing. Own test planning and
+          strategy, build and maintain the automation framework, and interview QA
+          candidates for team onboarding.</p>
       </div>
 
-      <!-- TODO: duplicate this block for each earlier role -->
-      <div class="timeline-item timeline-placeholder">
-        <p class="timeline-date">[Add earlier roles here]</p>
-        <h3>[Previous company / title]</h3>
-        <p>Duplicate a <code>.timeline-item</code> block above for each earlier position —
-          include dates, scope, and a result if you have one.</p>
+      <div class="timeline-item">
+        <p class="timeline-date">Jun 2022 to Feb 2024</p>
+        <h3>Test Engineer Automation, Luxoft</h3>
+        <p>Backend testing for an Online Remote Update (OTA) platform enabling
+          over-the-air vehicle software updates. Built the test automation framework from
+          scratch in Cypress, wrote test cases in Code-Beamer, and took part in PI and
+          sprint planning.</p>
+      </div>
+
+      <div class="timeline-item">
+        <p class="timeline-date">Jan 2021 to May 2022</p>
+        <h3>Senior Associate QA, Synechron Technologies</h3>
+        <p>Automation for a legacy trade pricing system transformation onto Microsoft Azure
+          Service Bus messaging. Developed the automation framework from scratch, ran
+          scenario walkthroughs, and handled knowledge transfer to new joiners.</p>
+      </div>
+
+      <div class="timeline-item">
+        <p class="timeline-date">Feb 2019 to Jan 2021</p>
+        <h3>Consultant, Capgemini</h3>
+        <p>API testing of payments and customer-data operations in consumer banking —
+          requirement walkthroughs, release and sprint planning, test scripting and
+          execution, and defect management.</p>
+      </div>
+
+      <div class="timeline-item">
+        <p class="timeline-date">Feb 2015 to Feb 2019</p>
+        <h3>Test Analyst, Infosys</h3>
+        <p>Testing IRIS, a UI application used by Credit Officers to analyse counterparty
+          risk. Wrote and executed test scenarios, built automation scripts, and reported
+          into senior management.</p>
       </div>
     </div>
   </section>
@@ -164,7 +192,7 @@
   <!-- Skills and tools -->
   <section id="skills" class="section">
     <h2>Skills and tools</h2>
-    <p>Current focus first.</p>
+    <p>Current focus first, full toolset below.</p>
 
     <div class="right-now">
       <span class="right-now-tag"><span class="dot"></span>RIGHT NOW</span>
@@ -172,58 +200,46 @@
         into data quality validation and ML pipeline testing.</p>
     </div>
 
-    <div class="skill-row">
-      <div class="skill-head">
-        <span class="skill-name">Playwright / Cypress / Selenium</span>
-        <span class="skill-since">since [20XX]</span>
+    <div class="skill-group">
+      <h3>Automation &amp; tools</h3>
+      <div class="tags">
+        <span class="tag">Playwright</span>
+        <span class="tag">Cypress</span>
+        <span class="tag">Selenium WebDriver</span>
+        <span class="tag">TestNG</span>
+        <span class="tag">Cucumber</span>
       </div>
-      <div class="skill-track"><div class="skill-fill" style="width:85%"></div></div>
     </div>
 
-    <div class="skill-row">
-      <div class="skill-head">
-        <span class="skill-name">REST Assured API automation</span>
-        <span class="skill-since">since [20XX]</span>
+    <div class="skill-group">
+      <h3>Languages &amp; API</h3>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">Java</span>
+        <span class="tag">REST Assured</span>
+        <span class="tag">Postman</span>
+        <span class="tag">SQL</span>
       </div>
-      <div class="skill-track"><div class="skill-fill" style="width:70%"></div></div>
     </div>
 
-    <div class="skill-row">
-      <div class="skill-head">
-        <span class="skill-name">Python / Pytest / Allure</span>
-        <span class="skill-since">since [20XX]</span>
+    <div class="skill-group">
+      <h3>CI/CD &amp; infra</h3>
+      <div class="tags">
+        <span class="tag">Jenkins</span>
+        <span class="tag">GitHub Actions</span>
+        <span class="tag">GitLab</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Microsoft Azure Service Bus</span>
       </div>
-      <div class="skill-track"><div class="skill-fill" style="width:55%"></div></div>
     </div>
 
-    <div class="skill-row">
-      <div class="skill-head">
-        <span class="skill-name">Data quality &amp; ML pipeline testing</span>
-        <span class="skill-since">since [20XX]</span>
-      </div>
-      <div class="skill-track"><div class="skill-fill" style="width:25%"></div></div>
-    </div>
-  </section>
-
-  <!-- Impact band -->
-  <section class="impact">
-    <h2>What that adds up to</h2>
-    <p>Measured before and after the work, on the projects themselves.</p>
-    <div class="impact-grid">
-      <div>
-        <div class="impact-num">[XX]%</div>
-        <div class="impact-label">reduction in regression run time</div>
-      </div>
-      <div>
-        <div class="impact-num">[XX]%</div>
-        <div class="impact-label">fewer escaped defects post-release</div>
-      </div>
-      <div>
-        <div class="impact-num">[XX]%</div>
-        <div class="impact-label">less framework maintenance time</div>
+    <div class="skill-group">
+      <h3>Data quality &amp; ML</h3>
+      <div class="tags">
+        <span class="tag">Data quality validation</span>
+        <span class="tag">ML pipeline testing fundamentals</span>
       </div>
     </div>
-    <p class="impact-note">Placeholder numbers — replace with real before/after metrics, or remove any you don't have.</p>
   </section>
 
   <!-- Projects -->
@@ -285,7 +301,7 @@
       </div>
       <div class="contact-row">
         <span class="contact-label">&#127760; Based in</span>
-        <span>[Your City, Country]. UTC±X</span>
+        <span>Frankfurt am Main, Germany. UTC+1</span>
       </div>
     </div>
   </section>
