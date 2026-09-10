@@ -9,6 +9,8 @@
 - 📫 Reach me: ashishsonkamble@rocketmail.com
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashish-sonkamble)
 
+### 🔗 [View my full portfolio →](https://automatish.github.io/automatish/)
+
 ---
 
 ### 🧰 Tech Stack
