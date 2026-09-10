@@ -1,12 +1,12 @@
 :root {
   --bg: #ffffff;
-  --bg-mint: #eef3f0;
-  --bg-dark: #0c1b1c;
-  --accent: #0f5c4c;
-  --accent-light: #14795f;
-  --text: #16211f;
-  --text-muted: #5d716c;
-  --border: #dbe6e1;
+  --bg-mint: #f2f1ef;
+  --bg-dark: #16181a;
+  --accent: #0e7a5f;
+  --accent-light: #22a17f;
+  --text: #1d1e1c;
+  --text-muted: #6f6e6a;
+  --border: #e2e1dc;
   --radius: 16px;
   --maxw: 760px;
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
