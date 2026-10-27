@@ -26,6 +26,7 @@
 **Languages**
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
 **CI/CD & Tools**
@@ -41,6 +42,7 @@
 
 | Project | Stack | Description |
 |---|---|---|
+| [playwright-enterprise-framework](https://github.com/automatish/playwright-enterprise-framework-) | TypeScript · Playwright · Docker · GitHub Actions · Allure | Enterprise E2E framework for a full-stack payments app (Cypress Real World App): Component Object Model, API-only session bootstrap, hybrid API → UI → DB balance checks, network fault injection (HTTP 500/503, timeouts, offline, Slow 3G), visual regression, and 3-way sharded CI publishing Allure reports to GitHub Pages |
 | [rest-automation-framework](https://github.com/automatish/rest-automation-framework) | Java · REST Assured · Cucumber · TestNG | BDD-style API test automation framework using Gherkin, REST Assured, and ExtentReports for structured, readable test scenarios |
 | [Pytest-API-Framework](https://github.com/automatish/Pytest-API-Framework) | Python · Pytest · Allure | CRUD API test automation framework with data-driven test cases, Allure reporting, and execution logging |
 
